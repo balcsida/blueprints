@@ -14340,6 +14340,9 @@ nav.sidenav-menu-slider::after {
 
 .sidenav-fixed.sidenav-menu-slider {
   visibility: visible; }
+  @media (min-width: 900px) {
+    .sidenav-fixed.sidenav-menu-slider {
+      overflow: visible; } }
   .sidenav-fixed.sidenav-menu-slider.toggler-expanded {
     width: 100%; }
   @media (max-width: 899px) {
@@ -14701,7 +14704,7 @@ table {
 .home .btn-version .btn {
   background-color: rgba(255, 255, 255, 0.3);
   border-color: transparent;
-  color: #FFF;
+  color: #fff;
   padding: 3px 8px 3px 12px;
   text-transform: none; }
   .home .btn-version .btn .lexicon-icon-caret-bottom {
@@ -14724,7 +14727,7 @@ table {
   min-height: 100%;
   transition: all 0.4s; }
   .home .card:hover {
-    background-color: #F2F6FF;
+    background-color: #f2f6ff;
     border-color: #204589;
     box-shadow: 6px 9px 36px rgba(48, 49, 63, 0.2);
     transform: translateY(-3px); }
@@ -14740,8 +14743,11 @@ table {
     display: inline-flex;
     font-size: 11px;
     letter-spacing: 1px; }
+    .home .card .btn img {
+      height: 1em;
+      margin: auto; }
   .home .card p {
-    color: #A1A3B6;
+    color: #a1a3b6;
     font-size: 18px;
     line-height: 1.6;
     margin-bottom: 16px; }
@@ -14754,7 +14760,7 @@ table {
 
 .intro {
   background-color: #0b63ce;
-  background: linear-gradient(20deg, rgba(11, 99, 206, 0.95), rgba(11, 99, 206, 0.9)), url("https://images.unsplash.com/photo-1433840496881-cbd845929862?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=becb11037b714f85bd90fbe4f0844915&auto=format&fit=crop&w=1440&q=80");
+  background-image: linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url("/images/home/blueprints-bg.svg");
   background-size: cover;
   color: #FFF;
   margin-bottom: 32px;
@@ -14779,7 +14785,7 @@ table {
     line-height: 24px;
     text-transform: uppercase; }
     .intro .btn-light:hover {
-      background-color: #F2F6FF; }
+      background-color: #f2f6ff; }
   .intro .h1 {
     font-size: 40px;
     font-weight: 900;
@@ -14817,7 +14823,7 @@ table {
 .contact-us {
   background-attachment: fixed;
   background-color: #FFF;
-  background-image: url(/images/home/bg_white.svg);
+  background-image: url("/images/home/blueprints-bg.svg"), linear-gradient(20deg, #f7f8f9, #e8e8e7);
   background-position: center;
   color: #393A4A;
   padding: 136px 0 96px; }
@@ -14846,10 +14852,10 @@ table {
   .link-blocks h1 {
     line-height: 1.4; }
   .link-blocks p {
-    color: #8D8FA8;
+    color: #8d8fa8;
     font-size: 20px; }
   .link-blocks .card {
-    background-color: #2B2D39;
+    background-color: #2b2d39;
     border-width: 0;
     box-shadow: 4px 6px 24px rgba(30, 31, 39, 0.3); }
     .link-blocks .card:hover {
