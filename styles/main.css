@@ -14273,7 +14273,7 @@ textarea:focus {
 
 nav.sidenav-menu-slider::before {
   content: '';
-  background: #F5F5F8;
+  background: #F7F8F9;
   width: 100%;
   height: 30vh;
   display: block;
@@ -14283,7 +14283,7 @@ nav.sidenav-menu-slider::before {
 
 nav.sidenav-menu-slider::after {
   content: '';
-  background: #F5F5F8;
+  background: #F7F8F9;
   width: 100%;
   height: 30vh;
   display: block;
@@ -14292,7 +14292,7 @@ nav.sidenav-menu-slider::after {
   z-index: -1; }
 
 .navbar-mobile {
-  background-color: #F5F5F8;
+  background-color: #F7F8F9;
   left: 0;
   min-height: 70.08px;
   position: fixed;
@@ -14510,7 +14510,7 @@ nav.sidenav-menu-slider::after {
     top: -1px; }
 
 .sidebar-lexicon-site {
-  background-color: #F5F5F8;
+  background-color: #F7F8F9;
   min-width: 370px; }
   .sidebar-lexicon-site .navbar-brand {
     font-size: 27.9984px;
@@ -14663,7 +14663,7 @@ table {
     line-height: 0px, 75;
     padding: 12px; }
   table thead > tr > th {
-    background-color: #F5F5F8;
+    background-color: #F7F8F9;
     border-top-width: 0;
     color: #6B6C7E;
     font-size: 12px;
@@ -14760,7 +14760,7 @@ table {
 
 .intro {
   background-color: #0b63ce;
-  background-image: linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url("/images/home/blueprints-bg.svg");
+  background-image: linear-gradient(20deg, rgba(11, 99, 206, 0.4), rgba(11, 99, 206, 0.6)), url("/images/home/blueprints-bg-neu.svg");
   background-size: cover;
   color: #FFF;
   margin-bottom: 32px;
@@ -14823,7 +14823,7 @@ table {
 .contact-us {
   background-attachment: fixed;
   background-color: #FFF;
-  background-image: url("/images/home/blueprints-bg.svg"), linear-gradient(20deg, #f7f8f9, #e8e8e7);
+  background-image: url("/images/home/blueprints-bg-neu.svg"), linear-gradient(20deg, #f7f8f9, #e8e8e7);
   background-position: center;
   color: #393A4A;
   padding: 136px 0 96px; }
@@ -14895,7 +14895,7 @@ table {
     width: 20px; }
 
 body {
-  background-color: #0b63ce;
+  background-color: white;
   color: #30313F;
   font-family: 'Source Sans Pro', Tahoma, "Trebuchet MS", sans-serif;
   font-size: 1rem; }
