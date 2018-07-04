@@ -14676,6 +14676,11 @@ nav.sidenav-menu-slider::after {
 .legal {
   color: #6b6c7e; }
 
+#_hj_feedback_container div {
+  font-family: 'Source Sans Pro', Tahoma, "Trebuchet MS", sans-serif !important;
+  font-weight: 600;
+  font-size: 14px; }
+
 table {
   margin: 36px 0 48px; }
   table > tbody > tr > td,
