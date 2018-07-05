@@ -14500,6 +14500,18 @@ nav.sidenav-menu-slider::after {
 .content .sidebar-offset .labelbg {
   background: white; }
 
+.content .sidebar-offset .logo-usage {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .content .sidebar-offset .logo-usage img {
+    max-width: 230px;
+    width: 33%; }
+  .content .sidebar-offset .logo-usage p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 4ch; }
+
 .News .content .sidebar-offset h3 {
   margin-top: 0; }
 
