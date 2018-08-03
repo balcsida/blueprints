@@ -14227,6 +14227,9 @@ mark,
   font-size: 18px;
   padding: 24px 0; }
 
+.card-type-asset .aspect-ratio.letter {
+  padding-bottom: 125%; }
+
 .lexicon-icon-list:after {
   clear: both;
   content: '';
